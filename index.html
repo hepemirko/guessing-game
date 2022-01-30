@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Guessing Number Game</title>
+
+	<!--Google Font-->
+
+	<link rel="preconnect" href="https://fonst.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+	<!--Stylesheet-->
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h2 id="message4"></h2>
+		<h3>I am thinking of a number between 1-100.</h3>
+		<h3>Can you guess it?</h3>
+
+		<input type="text" placeholder="0" id="guess"><br>
+		<button onclick="play()" id="my_btn">Guess</button>
+
+		<p id="message1">No. of guesses: 0</p>
+		<p id="message2">Guessed numbers: None</p>
+		<p id="message3"></p>
+		<button onclick="reload()" class="reload" id="reload">Reload</button>
+	</div>
+
+	<!--Script-->
+	<script src="script.js"></script>
+</body>
